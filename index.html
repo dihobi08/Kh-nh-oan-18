@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Bé Mèo ❤️</title>
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- PHÁO HOA -->
+    <!-- ========================= -->
+
+    <canvas id="fireworks"></canvas>
+
+    <!-- ========================= -->
+    <!-- TRÁI TIM BAY -->
+    <!-- ========================= -->
+
+    <div id="hearts"></div>
+
+    <!-- ========================= -->
+    <!-- HERO -->
+    <!-- ========================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1 id="title">
+                🎂 Happy Birthday
+            </h1>
+
+            <h2 id="name">
+                Bé Mèo ❤️
+            </h2>
+
+            <p id="date">
+                01 / 08 / 2026
+            </p>
+
+            <button id="openBtn">
+                💌 Mở lời chúc
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- LỜI CHÚC -->
+    <!-- ========================= -->
+
+    <section id="letter" class="letter hidden">
+
+        <h2>
+            💌 Chúc mừng sinh nhật tuổi 18 ❤️
+        </h2>
+
+        <div class="card">
+
+            <p>
+                <strong>
+                    1/8/2026 — Chúc mừng sinh nhật tròn 18 tuổi của Bé Mèo của anh! ❤️
+                </strong>
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                Cảm ơn em vì đã luôn là nguồn năng lượng tích cực,
+                là người mang đến cho anh sự bình yên và động lực
+                trong suốt chặng đường vừa qua.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                Anh không giỏi nói những lời hoa mỹ hay hứa hẹn điều gì quá lớn lao.
+                Nhưng có một điều anh luôn chắc chắn:
+                anh thật sự trân trọng những gì chúng ta đã cùng nhau trải qua.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                Nhìn lại gần ba năm qua,
+                từ những ngày cùng nhau ôn thi,
+                những lúc áp lực,
+                mệt mỏi,
+                cho đến khi cả hai dần trưởng thành như hôm nay,
+                sự có mặt của em luôn là một điều rất đặc biệt đối với anh.
+
+                Chính em đã trở thành một phần động lực
+                để anh cố gắng nhiều hơn mỗi ngày
+                và tin tưởng hơn vào những mục tiêu phía trước.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                Bước sang tuổi 18 —
+                cột mốc của sự trưởng thành,
+                của những quyết định lớn
+                và những hành trình mới.
+
+                Anh chúc em sẽ luôn tự tin,
+                bản lĩnh,
+                kiên định với lựa chọn của mình,
+                luôn giữ nụ cười trên môi,
+                ngày càng xinh đẹp,
+                hạnh phúc
+                và đạt được tất cả những điều em mong muốn.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                Dù sắp tới là những năm tháng đại học
+                hay bất kỳ thử thách nào đang chờ phía trước,
+                hãy luôn nhớ rằng em không hề một mình.
+
+                Phía sau em luôn có anh,
+                sẵn sàng lắng nghe,
+                ủng hộ
+                và đồng hành bất cứ khi nào em cần.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                Cảm ơn em vì đã xuất hiện trong thanh xuân của anh
+                và làm cho quãng thời gian ấy
+                trở nên ý nghĩa hơn rất nhiều.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <p>
+                Chúc Bé Mèo của anh
+                có một tuổi 18 thật rực rỡ,
+                thật hạnh phúc
+                và ngập tràn những điều tốt đẹp.
+
+                Hy vọng chúng ta sẽ còn cùng nhau đón thêm thật nhiều mùa sinh nhật nữa.
+            </p>
+
+        </div>
+
+        <div class="card ending">
+
+            <h2>
+                ❤️ Chúc mừng sinh nhật tuổi 18 của em! ❤️
+            </h2>
+
+            <h1>
+                Anh yêu em ❤️
+            </h1>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- ĐỒNG HỒ YÊU NHAU -->
+    <!-- ========================= -->
+
+    <section class="counter">
+
+        <h2>
+            ❤️ Chúng mình đã bên nhau ❤️
+        </h2>
+
+        <div id="loveTimer">
+
+            <div class="time-box">
+                <span id="days">0</span>
+                <small>Ngày</small>
+            </div>
+
+            <div class="time-box">
+                <span id="hours">0</span>
+                <small>Giờ</small>
+            </div>
+
+            <div class="time-box">
+                <span id="minutes">0</span>
+                <small>Phút</small>
+            </div>
+
+            <div class="time-box">
+                <span id="seconds">0</span>
+                <small>Giây</small>
+            </div>
+
+        </div>
+
+        <p>
+            Từ ngày <strong>10 / 08 / 2023</strong> ❤️
+        </p>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- FOOTER -->
+    <!-- ========================= -->
+
+    <footer>
+
+        <p>
+            Made with ❤️ by Anh dành riêng cho Bé Mèo
+        </p>
+
+    </footer>
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
